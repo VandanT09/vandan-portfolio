@@ -104,32 +104,43 @@ export default function Home() {
           </div>
 
           <div className="mt-6 flex items-center gap-4 text-base text-slate-600 dark:text-slate-300">
-            <a
-              href="mailto:vandanthakar13@gmail.com"
-              className="inline-flex items-center gap-1 hover:text-brand-light"
-            >
-              <Mail className="h-5 w-5" />
-              <span>Email</span>
-            </a>
-            <a
-              href="https://github.com/"
-              target="https://github.com/VandanT09"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 hover:text-brand-light"
-            >
-              <Github className="h-5 w-5" />
-              <span>GitHub</span>
-            </a>
-            <a
-              href="https://linkedin.com/"
-              target="https://www.linkedin.com/in/vandan-thakar-a19453271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 hover:text-brand-light"
-            >
-              <Linkedin className="h-5 w-5" />
-              <span>LinkedIn</span>
-            </a>
-          </div>
+
+  {/* Email */}
+  <a
+  href="mailto:vandanthakar13@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-flex items-center gap-1 hover:text-brand-light"
+>
+  <Mail className="h-5 w-5" />
+  <span>Email</span>
+</a>
+
+
+  {/* GitHub */}
+  <a
+    href="https://github.com/VandanT09"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-1 hover:text-brand-light"
+  >
+    <Github className="h-5 w-5" />
+    <span>GitHub</span>
+  </a>
+
+  {/* LinkedIn */}
+  <a
+    href="https://www.linkedin.com/in/vandan-thakar-a19453271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="inline-flex items-center gap-1 hover:text-brand-light"
+  >
+    <Linkedin className="h-5 w-5" />
+    <span>LinkedIn</span>
+  </a>
+
+</div>
+
         </motion.div>
         <div className="mt-10 sm:mt-0">
   <ProfileShowcase />
