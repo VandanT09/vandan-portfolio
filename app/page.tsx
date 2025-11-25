@@ -260,51 +260,66 @@ export default function Home() {
       </Section>
 
       {/* CONTACT */}
-      <Section id="contact" title="Contact" eyebrow="Let’s work together">
-        <div className="grid gap-6 md:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)]">
-          <p className="text-base text-slate-600 dark:text-slate-300 leading-relaxed">
-            If you&apos;re looking for someone who can own data pipelines, build
-            well-documented models, and communicate insights clearly, I&apos;d
-            love to connect. I&apos;m especially interested in{" "}
-            <span className="font-medium">
-              data analyst and risk/analytics roles
-            </span>{" "}
-            in finance and product-focused teams.
-          </p>
-          <div className="space-y-3 rounded-2xl border border-slate-200/70 bg-white/70 p-4 text-sm shadow-sm backdrop-blur dark:border-slate-800 dark:bg-slate-900/70">
-            <p className="font-semibold text-slate-800 dark:text-slate-100">
-              Say hello
-            </p>
-            <div className="space-y-2 text-slate-600 dark:text-slate-300">
-              <a
-                href="mailto:vandanthakar13@gmail.com"
-                className="flex items-center gap-2 hover:text-brand-light"
-              >
-                <Mail className="h-4 w-4" />
-                <span>vandanthakar13@gmail.com</span>
-              </a>
-              <a
-                href="https://www.linkedin.com/in/vandan-thakar-a19453271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 hover:text-brand-light"
-              >
-                <Linkedin className="h-4 w-4" />
-                <span>LinkedIn Profile</span>
-              </a>
-              <a
-                href="https://github.com/VandanT09"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 hover:text-brand-light"
-              >
-                <Github className="h-4 w-4" />
-                <span>GitHub Profile</span>
-              </a>
-            </div>
-          </div>
-        </div>
-      </Section>
+<Section id="contact" title="Contact" eyebrow="Let’s work together">
+  <div className="grid gap-6 md:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)]">
+    
+    <p className="text-base text-slate-600 dark:text-slate-300 leading-relaxed">
+      If you&apos;re looking for someone who can own data pipelines, build
+      well-documented models, and communicate insights clearly, I&apos;d
+      love to connect. I&apos;m especially interested in{" "}
+      <span className="font-medium">
+        data analyst and risk/analytics roles
+      </span>{" "}
+      in finance and product-focused teams.
+    </p>
+
+    <div className="space-y-3 rounded-2xl border border-slate-200/70 bg-white/70 p-4 text-sm shadow-sm backdrop-blur dark:border-slate-800 dark:bg-slate-900/70">
+      
+      <p className="font-semibold text-slate-800 dark:text-slate-100">
+        Say hello
+      </p>
+
+      <div className="space-y-2 text-slate-600 dark:text-slate-300">
+
+        {/* Email */}
+        <a
+          href="mailto:vandanthakar13@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 hover:text-brand-light"
+        >
+          <Mail className="h-4 w-4" />
+          <span>vandanthakar13@gmail.com</span>
+        </a>
+
+        {/* LinkedIn */}
+        <a
+          href="https://www.linkedin.com/in/vandan-thakar-a19453271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 hover:text-brand-light"
+        >
+          <Linkedin className="h-4 w-4" />
+          <span>LinkedIn Profile</span>
+        </a>
+
+        {/* GitHub */}
+        <a
+          href="https://github.com/VandanT09"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 hover:text-brand-light"
+        >
+          <Github className="h-4 w-4" />
+          <span>GitHub Profile</span>
+        </a>
+
+      </div>
+    </div>
+
+  </div>
+</Section>
+
     </main>
   );
 }
