@@ -284,7 +284,7 @@ export default function Home() {
                 <span>vandanthakar13@gmail.com</span>
               </a>
               <a
-                href="https://linkedin.com/"
+                href="https://www.linkedin.com/in/vandan-thakar-a19453271?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-brand-light"
@@ -293,7 +293,7 @@ export default function Home() {
                 <span>LinkedIn Profile</span>
               </a>
               <a
-                href="https://github.com/"
+                href="https://github.com/VandanT09"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-brand-light"
